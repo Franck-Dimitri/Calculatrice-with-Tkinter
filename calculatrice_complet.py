@@ -1,43 +1,6 @@
 from tkinter import * 
 
 
-"""
-
-numero = []
-
-def bouton0():
-    numero.append(0)
-    Ecran_affichage.delete(0, END)
-    # ensuite on insert le mif ot de genere :
-    Ecran_affichage.insert(0, numero)
-
-def bouton9():
-    numero.append(9)
-    Ecran_affichage.delete(0, END)
-    # ensuite on insert le mif ot de genere :
-    Ecran_affichage.insert(0, numero)
-
-chiffre = numero
-for i in numero:
-    chiffre = chiffre + numero[i]
-
-def addition():
-
-    Ecran_affichage.delete(0, END)
-    # ensuite on insert le mif ot de genere :
-    Ecran_affichage.insert(0, numero)
-    resultat = numero + chiffre2
-            
-def bouton_egale():
-    Ecran_affichage.delete(0, END)
-    # ensuite on insert le mif ot de genere :
-    Ecran_affichage.insert(0, chiffre)
-    numero.clear()
-
-"""
-
-
-
 calcul = ""
 
 def ajout_calcul(symbol):
